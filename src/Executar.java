@@ -4,7 +4,7 @@ public class Executar {
 	public static void main(String[] args) {
 		
 		Cliente paulo = new Cliente();
-		paulo.setNome("Paulo Henrique");
+		paulo.setNome("Rafael Gomes");
 		
 		Conta cc = new ContaCorrente(paulo);
 		cc.depositar(15.5);
